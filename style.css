@@ -1,0 +1,51 @@
+body {
+  background-color: #e9ecef;
+}
+.jumbotron {
+  background-color: #e9ecef;
+}
+.container p {
+  display: inline;
+  font-size: 18px;
+}
+.container .row a {
+  color: black;
+  font-size: 18px;
+}
+.container .jumbotron a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+.col-12 > h1 {
+  text-align: center;
+}
+.main h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main ul li {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+.container .mid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container .mid ul li {
+  list-style: none;
+}
+.card_about {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
